@@ -15,8 +15,8 @@
 
 namespace external_sort {
 
-const char* DEF_SPL_TMP_SFX = "split";
-const char* DEF_MRG_TMP_SFX = "merge";
+static const char* DEF_SPL_TMP_SFX = "split";
+static const char* DEF_MRG_TMP_SFX = "merge";
 
 /// ----------------------------------------------------------------------------
 /// auxiliary functions
